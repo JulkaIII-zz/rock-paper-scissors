@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { ICONS_ARRAY, RULES } from "../constants";
 import IconSVG from "./IconSVG";
+import ScoreTable from "./ScoreTable";
 import _ from "lodash";
 
 class Game extends Component {
@@ -12,7 +13,9 @@ class Game extends Component {
       computerChosenItem: "",
       userClicked: false,
       result: "",
-      round: 1
+      round: 1,
+      userScore: 0,
+      computerScore: 0
     };
     this.handleUserClick = this.handleUserClick.bind(this);
     this.handleComputerLogic = this.handleComputerLogic.bind(this);
@@ -44,15 +47,17 @@ class Game extends Component {
   }
 
   calculateResult(userChosenItem, computerChosenItem) {
-    // const { userChosenItem, computerChosenItem } = this.state;
     if (userChosenItem === computerChosenItem) {
       this.setState({ result: "Draw" });
       return;
     } else if (RULES[userChosenItem] === computerChosenItem) {
-      this.setState({ result: "You win" });
+      this.setState({ result: "You win", userScore: this.state.userScore + 1 });
       return;
     }
-    return this.setState({ result: "You lost" });
+    return this.setState({
+      result: "You lost",
+      computerScore: this.state.computerScore + 1
+    });
   }
 
   nextRound() {
@@ -71,7 +76,9 @@ class Game extends Component {
       computerChosenItem: "",
       userClicked: false,
       result: "",
-      round: 1
+      round: 1,
+      userScore: 0,
+      computerScore: 0
     });
   }
 
@@ -81,9 +88,12 @@ class Game extends Component {
       computerChosenItem,
       userClicked,
       result,
-      round
+      round,
+      userScore,
+      computerScore
     } = this.state;
     const iconNames = ICONS_ARRAY;
+    const scores = [userScore, computerScore];
     let userChoiceItems = _.map(iconNames, (iconName, index) => {
       if (userChosenItem === "" || userChosenItem === iconName) {
         return (
@@ -121,30 +131,35 @@ class Game extends Component {
               <div className="choice-icons">{userChoiceItems}</div>
             </div>
             <div className="col s2">
-              <h5 className="col s12">Round {round}</h5>
-              <h5 className="col s12">{result}</h5>
+              <h5 className="col s12 teal accent-2">Round {round}</h5>
+              <h4 className="col s12 game-result">{result}</h4>
             </div>
             <div className="col s5">
               <h4 className="col s12 userName">Computer</h4>
               <div className="choice-icons">{computerChoiceItems}</div>
             </div>
           </div>
-          {userClicked && (
-            <a
-              className="waves-effect waves-light btn-small"
-              onClick={this.nextRound}
-            >
-              <i className="material-icons right">cloud</i>Next Round
-            </a>
-          )}
-          {(round > 1 || userClicked) && (
-            <a
-              className="waves-effect waves-light btn-small"
-              onClick={this.restartGame}
-            >
-              <i className="material-icons right">cloud</i>Restart game
-            </a>
-          )}
+          <div className="game-button">
+            {userClicked && (
+              <a
+                className="waves-effect waves-light btn-small"
+                onClick={this.nextRound}
+              >
+                <i className="material-icons right">cloud</i>Next Round
+              </a>
+            )}
+          </div>
+          <ScoreTable scores={scores} />
+          <div className="game-button">
+            {(round > 1 || userClicked) && (
+              <a
+                className="waves-effect waves-light btn-small"
+                onClick={this.restartGame}
+              >
+                <i className="material-icons right">cloud</i>Restart game
+              </a>
+            )}
+          </div>
         </div>
       </section>
     );

@@ -34,7 +34,7 @@ class App extends Component {
           <div className="play-button" onClick={this.handleClick}>
             {renderComponent ? (
               <a className="waves-effect waves-light btn-large">
-                <i className="material-icons right">play_arrow</i>quit
+                <i className="material-icons right">exit_to_app</i>quit
               </a>
             ) : (
               <a className="waves-effect waves-light btn-large">

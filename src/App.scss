@@ -1,6 +1,5 @@
 $dark-grey: #212121;
 $teal: teal;
-
 .App {
   text-align: center;
   min-height: 100vh;
@@ -32,6 +31,7 @@ $teal: teal;
     transform: rotate(360deg);
   }
 }
+
 .game-section {
   .userName {
     margin-bottom: 100px;
@@ -42,5 +42,20 @@ $teal: teal;
         margin-right: 30px;
       }
     }
+  }
+  .game-button {
+    min-height: 35px;
+  }
+}
+
+.game-result {
+  margin-top: 100px;
+  color: $teal;
+}
+
+.score-table {
+  table {
+    float: none !important;
+    margin: 0 auto;
   }
 }
