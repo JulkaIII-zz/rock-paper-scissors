@@ -28,7 +28,6 @@
   "devDependencies": {
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
-    "jest": "^23.6.0",
-    "jest-cli": "git://github.com/hankhsiao/jest.git"
+    "jest": "^23.6.0"
   }
 }

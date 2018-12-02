@@ -97,7 +97,7 @@ class Game extends Component {
       if (userChosenItem === "" || userChosenItem === iconName) {
         return (
           <div
-            className="col s4"
+            className="col s12 m4"
             key={index}
             onClick={() => this.playGame(iconName)}
           >
@@ -105,19 +105,19 @@ class Game extends Component {
           </div>
         );
       } else {
-        return <div className="col s4" key={index} />;
+        return <div className="col s12 m4" key={index} />;
       }
     });
 
     let computerChoiceItems = _.map(iconNames, (iconName, index) => {
       if (computerChosenItem === "" || computerChosenItem === iconName) {
         return (
-          <div className="col s4" key={index}>
+          <div className="col s12 m4" key={index}>
             <IconSVG name={iconName} />
           </div>
         );
       } else {
-        return <div className="col s4" key={index} />;
+        return <div className="col s12 m4" key={index} />;
       }
     });
 
