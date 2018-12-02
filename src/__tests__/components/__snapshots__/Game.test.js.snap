@@ -1,0 +1,3872 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game component rendered successfully 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): ShallowWrapper {
+    Symbol(enzyme.__root__): [Circular],
+    Symbol(enzyme.__unrendered__): <Game />,
+    Symbol(enzyme.__renderer__): Object {
+      "batchedUpdates": [Function],
+      "getNode": [Function],
+      "render": [Function],
+      "simulateError": [Function],
+      "simulateEvent": [Function],
+      "unmount": [Function],
+    },
+    Symbol(enzyme.__node__): Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <div
+            className="row"
+          >
+            <div
+              className="col s5 icons-block"
+            >
+              <h4
+                className="col s12 user-name"
+              >
+                You
+              </h4>
+              <div
+                className="choice-icons"
+              >
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="rock"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="paper"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="scissors"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col s2"
+            >
+              <h5
+                className="col s12 teal accent-2 round"
+              >
+                Round 
+                1
+              </h5>
+              <h4
+                className="col s12 game-result"
+              >
+                
+              </h4>
+            </div>
+            <div
+              className="col s5"
+            >
+              <h4
+                className="col s12 computer-name"
+              >
+                Computer
+              </h4>
+              <div
+                className="choice-icons"
+              >
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="rock"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="paper"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="scissors"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="game-button"
+          />
+          <ScoreTable
+            scores={
+              Array [
+                0,
+                0,
+              ]
+            }
+          />
+          <div
+            className="game-button"
+          />
+        </div>,
+        "className": "game-section",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row"
+            >
+              <div
+                className="col s5 icons-block"
+              >
+                <h4
+                  className="col s12 user-name"
+                >
+                  You
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col s2"
+              >
+                <h5
+                  className="col s12 teal accent-2 round"
+                >
+                  Round 
+                  1
+                </h5>
+                <h4
+                  className="col s12 game-result"
+                >
+                  
+                </h4>
+              </div>
+              <div
+                className="col s5"
+              >
+                <h4
+                  className="col s12 computer-name"
+                >
+                  Computer
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="game-button"
+            />,
+            <ScoreTable
+              scores={
+                Array [
+                  0,
+                  0,
+                ]
+              }
+            />,
+            <div
+              className="game-button"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col s5 icons-block"
+                >
+                  <h4
+                    className="col s12 user-name"
+                  >
+                    You
+                  </h4>
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>
+                </div>,
+                <div
+                  className="col s2"
+                >
+                  <h5
+                    className="col s12 teal accent-2 round"
+                  >
+                    Round 
+                    1
+                  </h5>
+                  <h4
+                    className="col s12 game-result"
+                  >
+                    
+                  </h4>
+                </div>,
+                <div
+                  className="col s5"
+                >
+                  <h4
+                    className="col s12 computer-name"
+                  >
+                    Computer
+                  </h4>
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>
+                </div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="col s12 user-name"
+                    >
+                      You
+                    </h4>,
+                    <div
+                      className="choice-icons"
+                    >
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>
+                    </div>,
+                  ],
+                  "className": "col s5 icons-block",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "You",
+                      "className": "col s12 user-name",
+                    },
+                    "ref": null,
+                    "rendered": "You",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="rock"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="paper"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="scissors"
+                          />
+                        </div>,
+                      ],
+                      "className": "choice-icons",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="rock"
+                          />,
+                          "className": "col s4",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "rock",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="paper"
+                          />,
+                          "className": "col s4",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "paper",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="scissors"
+                          />,
+                          "className": "col s4",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "scissors",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h5
+                      className="col s12 teal accent-2 round"
+                    >
+                      Round 
+                      1
+                    </h5>,
+                    <h4
+                      className="col s12 game-result"
+                    >
+                      
+                    </h4>,
+                  ],
+                  "className": "col s2",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Round ",
+                        1,
+                      ],
+                      "className": "col s12 teal accent-2 round",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Round ",
+                      1,
+                    ],
+                    "type": "h5",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "className": "col s12 game-result",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "h4",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="col s12 computer-name"
+                    >
+                      Computer
+                    </h4>,
+                    <div
+                      className="choice-icons"
+                    >
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>
+                    </div>,
+                  ],
+                  "className": "col s5",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Computer",
+                      "className": "col s12 computer-name",
+                    },
+                    "ref": null,
+                    "rendered": "Computer",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="rock"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="paper"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="scissors"
+                          />
+                        </div>,
+                      ],
+                      "className": "choice-icons",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="rock"
+                          />,
+                          "className": "col s4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "rock",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="paper"
+                          />,
+                          "className": "col s4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "paper",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="scissors"
+                          />,
+                          "className": "col s4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "scissors",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": false,
+              "className": "game-button",
+            },
+            "ref": null,
+            "rendered": false,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "scores": Array [
+                0,
+                0,
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": false,
+              "className": "game-button",
+            },
+            "ref": null,
+            "rendered": false,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "section",
+    },
+    Symbol(enzyme.__nodes__): Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div>
+            <div
+              className="row"
+            >
+              <div
+                className="col s5 icons-block"
+              >
+                <h4
+                  className="col s12 user-name"
+                >
+                  You
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col s2"
+              >
+                <h5
+                  className="col s12 teal accent-2 round"
+                >
+                  Round 
+                  1
+                </h5>
+                <h4
+                  className="col s12 game-result"
+                >
+                  
+                </h4>
+              </div>
+              <div
+                className="col s5"
+              >
+                <h4
+                  className="col s12 computer-name"
+                >
+                  Computer
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="game-button"
+            />
+            <ScoreTable
+              scores={
+                Array [
+                  0,
+                  0,
+                ]
+              }
+            />
+            <div
+              className="game-button"
+            />
+          </div>,
+          "className": "game-section",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row"
+              >
+                <div
+                  className="col s5 icons-block"
+                >
+                  <h4
+                    className="col s12 user-name"
+                  >
+                    You
+                  </h4>
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="col s2"
+                >
+                  <h5
+                    className="col s12 teal accent-2 round"
+                  >
+                    Round 
+                    1
+                  </h5>
+                  <h4
+                    className="col s12 game-result"
+                  >
+                    
+                  </h4>
+                </div>
+                <div
+                  className="col s5"
+                >
+                  <h4
+                    className="col s12 computer-name"
+                  >
+                    Computer
+                  </h4>
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="game-button"
+              />,
+              <ScoreTable
+                scores={
+                  Array [
+                    0,
+                    0,
+                  ]
+                }
+              />,
+              <div
+                className="game-button"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col s5 icons-block"
+                  >
+                    <h4
+                      className="col s12 user-name"
+                    >
+                      You
+                    </h4>
+                    <div
+                      className="choice-icons"
+                    >
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>
+                    </div>
+                  </div>,
+                  <div
+                    className="col s2"
+                  >
+                    <h5
+                      className="col s12 teal accent-2 round"
+                    >
+                      Round 
+                      1
+                    </h5>
+                    <h4
+                      className="col s12 game-result"
+                    >
+                      
+                    </h4>
+                  </div>,
+                  <div
+                    className="col s5"
+                  >
+                    <h4
+                      className="col s12 computer-name"
+                    >
+                      Computer
+                    </h4>
+                    <div
+                      className="choice-icons"
+                    >
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>
+                    </div>
+                  </div>,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h4
+                        className="col s12 user-name"
+                      >
+                        You
+                      </h4>,
+                      <div
+                        className="choice-icons"
+                      >
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="rock"
+                          />
+                        </div>
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="paper"
+                          />
+                        </div>
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="scissors"
+                          />
+                        </div>
+                      </div>,
+                    ],
+                    "className": "col s5 icons-block",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "You",
+                        "className": "col s12 user-name",
+                      },
+                      "ref": null,
+                      "rendered": "You",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="col s4"
+                            onClick={[Function]}
+                          >
+                            <IconSVG
+                              name="rock"
+                            />
+                          </div>,
+                          <div
+                            className="col s4"
+                            onClick={[Function]}
+                          >
+                            <IconSVG
+                              name="paper"
+                            />
+                          </div>,
+                          <div
+                            className="col s4"
+                            onClick={[Function]}
+                          >
+                            <IconSVG
+                              name="scissors"
+                            />
+                          </div>,
+                        ],
+                        "className": "choice-icons",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "0",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <IconSVG
+                              name="rock"
+                            />,
+                            "className": "col s4",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "name": "rock",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "1",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <IconSVG
+                              name="paper"
+                            />,
+                            "className": "col s4",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "name": "paper",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "2",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <IconSVG
+                              name="scissors"
+                            />,
+                            "className": "col s4",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "name": "scissors",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h5
+                        className="col s12 teal accent-2 round"
+                      >
+                        Round 
+                        1
+                      </h5>,
+                      <h4
+                        className="col s12 game-result"
+                      >
+                        
+                      </h4>,
+                    ],
+                    "className": "col s2",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Round ",
+                          1,
+                        ],
+                        "className": "col s12 teal accent-2 round",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Round ",
+                        1,
+                      ],
+                      "type": "h5",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "col s12 game-result",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "h4",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h4
+                        className="col s12 computer-name"
+                      >
+                        Computer
+                      </h4>,
+                      <div
+                        className="choice-icons"
+                      >
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="rock"
+                          />
+                        </div>
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="paper"
+                          />
+                        </div>
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="scissors"
+                          />
+                        </div>
+                      </div>,
+                    ],
+                    "className": "col s5",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Computer",
+                        "className": "col s12 computer-name",
+                      },
+                      "ref": null,
+                      "rendered": "Computer",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="col s4"
+                          >
+                            <IconSVG
+                              name="rock"
+                            />
+                          </div>,
+                          <div
+                            className="col s4"
+                          >
+                            <IconSVG
+                              name="paper"
+                            />
+                          </div>,
+                          <div
+                            className="col s4"
+                          >
+                            <IconSVG
+                              name="scissors"
+                            />
+                          </div>,
+                        ],
+                        "className": "choice-icons",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "0",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <IconSVG
+                              name="rock"
+                            />,
+                            "className": "col s4",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "name": "rock",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "1",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <IconSVG
+                              name="paper"
+                            />,
+                            "className": "col s4",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "name": "paper",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "2",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <IconSVG
+                              name="scissors"
+                            />,
+                            "className": "col s4",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "name": "scissors",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": false,
+                "className": "game-button",
+              },
+              "ref": null,
+              "rendered": false,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "scores": Array [
+                  0,
+                  0,
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": false,
+                "className": "game-button",
+              },
+              "ref": null,
+              "rendered": false,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "section",
+      },
+    ],
+    Symbol(enzyme.__options__): Object {
+      "adapter": ReactSixteenAdapter {
+        "options": Object {
+          "enableComponentDidUpdateOnSetState": true,
+          "lifecycles": Object {
+            "componentDidUpdate": Object {
+              "onSetState": true,
+            },
+            "getDerivedStateFromProps": true,
+            "getSnapshotBeforeUpdate": true,
+            "setState": Object {
+              "skipsComponentDidUpdateOnNullish": true,
+            },
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__unrendered__): null,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div>
+        <div
+          className="row"
+        >
+          <div
+            className="col s5 icons-block"
+          >
+            <h4
+              className="col s12 user-name"
+            >
+              You
+            </h4>
+            <div
+              className="choice-icons"
+            >
+              <div
+                className="col s4"
+                onClick={[Function]}
+              >
+                <IconSVG
+                  name="rock"
+                />
+              </div>
+              <div
+                className="col s4"
+                onClick={[Function]}
+              >
+                <IconSVG
+                  name="paper"
+                />
+              </div>
+              <div
+                className="col s4"
+                onClick={[Function]}
+              >
+                <IconSVG
+                  name="scissors"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="col s2"
+          >
+            <h5
+              className="col s12 teal accent-2 round"
+            >
+              Round 
+              1
+            </h5>
+            <h4
+              className="col s12 game-result"
+            >
+              
+            </h4>
+          </div>
+          <div
+            className="col s5"
+          >
+            <h4
+              className="col s12 computer-name"
+            >
+              Computer
+            </h4>
+            <div
+              className="choice-icons"
+            >
+              <div
+                className="col s4"
+              >
+                <IconSVG
+                  name="rock"
+                />
+              </div>
+              <div
+                className="col s4"
+              >
+                <IconSVG
+                  name="paper"
+                />
+              </div>
+              <div
+                className="col s4"
+              >
+                <IconSVG
+                  name="scissors"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="game-button"
+        />
+        <ScoreTable
+          scores={
+            Array [
+              0,
+              0,
+            ]
+          }
+        />
+        <div
+          className="game-button"
+        />
+      </div>,
+      "className": "game-section",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="row"
+          >
+            <div
+              className="col s5 icons-block"
+            >
+              <h4
+                className="col s12 user-name"
+              >
+                You
+              </h4>
+              <div
+                className="choice-icons"
+              >
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="rock"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="paper"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="scissors"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col s2"
+            >
+              <h5
+                className="col s12 teal accent-2 round"
+              >
+                Round 
+                1
+              </h5>
+              <h4
+                className="col s12 game-result"
+              >
+                
+              </h4>
+            </div>
+            <div
+              className="col s5"
+            >
+              <h4
+                className="col s12 computer-name"
+              >
+                Computer
+              </h4>
+              <div
+                className="choice-icons"
+              >
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="rock"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="paper"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="scissors"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="game-button"
+          />,
+          <ScoreTable
+            scores={
+              Array [
+                0,
+                0,
+              ]
+            }
+          />,
+          <div
+            className="game-button"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="col s5 icons-block"
+              >
+                <h4
+                  className="col s12 user-name"
+                >
+                  You
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="col s2"
+              >
+                <h5
+                  className="col s12 teal accent-2 round"
+                >
+                  Round 
+                  1
+                </h5>
+                <h4
+                  className="col s12 game-result"
+                >
+                  
+                </h4>
+              </div>,
+              <div
+                className="col s5"
+              >
+                <h4
+                  className="col s12 computer-name"
+                >
+                  Computer
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="col s12 user-name"
+                  >
+                    You
+                  </h4>,
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>,
+                ],
+                "className": "col s5 icons-block",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "You",
+                    "className": "col s12 user-name",
+                  },
+                  "ref": null,
+                  "rendered": "You",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>,
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>,
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>,
+                    ],
+                    "className": "choice-icons",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSVG
+                          name="rock"
+                        />,
+                        "className": "col s4",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "name": "rock",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSVG
+                          name="paper"
+                        />,
+                        "className": "col s4",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "name": "paper",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSVG
+                          name="scissors"
+                        />,
+                        "className": "col s4",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "name": "scissors",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h5
+                    className="col s12 teal accent-2 round"
+                  >
+                    Round 
+                    1
+                  </h5>,
+                  <h4
+                    className="col s12 game-result"
+                  >
+                    
+                  </h4>,
+                ],
+                "className": "col s2",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Round ",
+                      1,
+                    ],
+                    "className": "col s12 teal accent-2 round",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Round ",
+                    1,
+                  ],
+                  "type": "h5",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                    "className": "col s12 game-result",
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "h4",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="col s12 computer-name"
+                  >
+                    Computer
+                  </h4>,
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>,
+                ],
+                "className": "col s5",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Computer",
+                    "className": "col s12 computer-name",
+                  },
+                  "ref": null,
+                  "rendered": "Computer",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>,
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>,
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>,
+                    ],
+                    "className": "choice-icons",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSVG
+                          name="rock"
+                        />,
+                        "className": "col s4",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "name": "rock",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSVG
+                          name="paper"
+                        />,
+                        "className": "col s4",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "name": "paper",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSVG
+                          name="scissors"
+                        />,
+                        "className": "col s4",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "name": "scissors",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": false,
+            "className": "game-button",
+          },
+          "ref": null,
+          "rendered": false,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "scores": Array [
+              0,
+              0,
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": false,
+            "className": "game-button",
+          },
+          "ref": null,
+          "rendered": false,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <div
+            className="row"
+          >
+            <div
+              className="col s5 icons-block"
+            >
+              <h4
+                className="col s12 user-name"
+              >
+                You
+              </h4>
+              <div
+                className="choice-icons"
+              >
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="rock"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="paper"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="scissors"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col s2"
+            >
+              <h5
+                className="col s12 teal accent-2 round"
+              >
+                Round 
+                1
+              </h5>
+              <h4
+                className="col s12 game-result"
+              >
+                
+              </h4>
+            </div>
+            <div
+              className="col s5"
+            >
+              <h4
+                className="col s12 computer-name"
+              >
+                Computer
+              </h4>
+              <div
+                className="choice-icons"
+              >
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="rock"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="paper"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="scissors"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="game-button"
+          />
+          <ScoreTable
+            scores={
+              Array [
+                0,
+                0,
+              ]
+            }
+          />
+          <div
+            className="game-button"
+          />
+        </div>,
+        "className": "game-section",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row"
+            >
+              <div
+                className="col s5 icons-block"
+              >
+                <h4
+                  className="col s12 user-name"
+                >
+                  You
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col s2"
+              >
+                <h5
+                  className="col s12 teal accent-2 round"
+                >
+                  Round 
+                  1
+                </h5>
+                <h4
+                  className="col s12 game-result"
+                >
+                  
+                </h4>
+              </div>
+              <div
+                className="col s5"
+              >
+                <h4
+                  className="col s12 computer-name"
+                >
+                  Computer
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="game-button"
+            />,
+            <ScoreTable
+              scores={
+                Array [
+                  0,
+                  0,
+                ]
+              }
+            />,
+            <div
+              className="game-button"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col s5 icons-block"
+                >
+                  <h4
+                    className="col s12 user-name"
+                  >
+                    You
+                  </h4>
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>
+                </div>,
+                <div
+                  className="col s2"
+                >
+                  <h5
+                    className="col s12 teal accent-2 round"
+                  >
+                    Round 
+                    1
+                  </h5>
+                  <h4
+                    className="col s12 game-result"
+                  >
+                    
+                  </h4>
+                </div>,
+                <div
+                  className="col s5"
+                >
+                  <h4
+                    className="col s12 computer-name"
+                  >
+                    Computer
+                  </h4>
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>
+                </div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="col s12 user-name"
+                    >
+                      You
+                    </h4>,
+                    <div
+                      className="choice-icons"
+                    >
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>
+                    </div>,
+                  ],
+                  "className": "col s5 icons-block",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "You",
+                      "className": "col s12 user-name",
+                    },
+                    "ref": null,
+                    "rendered": "You",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="rock"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="paper"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="scissors"
+                          />
+                        </div>,
+                      ],
+                      "className": "choice-icons",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="rock"
+                          />,
+                          "className": "col s4",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "rock",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="paper"
+                          />,
+                          "className": "col s4",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "paper",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="scissors"
+                          />,
+                          "className": "col s4",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "scissors",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h5
+                      className="col s12 teal accent-2 round"
+                    >
+                      Round 
+                      1
+                    </h5>,
+                    <h4
+                      className="col s12 game-result"
+                    >
+                      
+                    </h4>,
+                  ],
+                  "className": "col s2",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Round ",
+                        1,
+                      ],
+                      "className": "col s12 teal accent-2 round",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Round ",
+                      1,
+                    ],
+                    "type": "h5",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "className": "col s12 game-result",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "h4",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="col s12 computer-name"
+                    >
+                      Computer
+                    </h4>,
+                    <div
+                      className="choice-icons"
+                    >
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>
+                    </div>,
+                  ],
+                  "className": "col s5",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Computer",
+                      "className": "col s12 computer-name",
+                    },
+                    "ref": null,
+                    "rendered": "Computer",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="rock"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="paper"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="scissors"
+                          />
+                        </div>,
+                      ],
+                      "className": "choice-icons",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="rock"
+                          />,
+                          "className": "col s4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "rock",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="paper"
+                          />,
+                          "className": "col s4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "paper",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="scissors"
+                          />,
+                          "className": "col s4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "scissors",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": false,
+              "className": "game-button",
+            },
+            "ref": null,
+            "rendered": false,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "scores": Array [
+                0,
+                0,
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": false,
+              "className": "game-button",
+            },
+            "ref": null,
+            "rendered": false,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__rootNodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <div
+            className="row"
+          >
+            <div
+              className="col s5 icons-block"
+            >
+              <h4
+                className="col s12 user-name"
+              >
+                You
+              </h4>
+              <div
+                className="choice-icons"
+              >
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="rock"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="paper"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                  onClick={[Function]}
+                >
+                  <IconSVG
+                    name="scissors"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col s2"
+            >
+              <h5
+                className="col s12 teal accent-2 round"
+              >
+                Round 
+                1
+              </h5>
+              <h4
+                className="col s12 game-result"
+              >
+                
+              </h4>
+            </div>
+            <div
+              className="col s5"
+            >
+              <h4
+                className="col s12 computer-name"
+              >
+                Computer
+              </h4>
+              <div
+                className="choice-icons"
+              >
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="rock"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="paper"
+                  />
+                </div>
+                <div
+                  className="col s4"
+                >
+                  <IconSVG
+                    name="scissors"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="game-button"
+          />
+          <ScoreTable
+            scores={
+              Array [
+                0,
+                0,
+              ]
+            }
+          />
+          <div
+            className="game-button"
+          />
+        </div>,
+        "className": "game-section",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row"
+            >
+              <div
+                className="col s5 icons-block"
+              >
+                <h4
+                  className="col s12 user-name"
+                >
+                  You
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                    onClick={[Function]}
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col s2"
+              >
+                <h5
+                  className="col s12 teal accent-2 round"
+                >
+                  Round 
+                  1
+                </h5>
+                <h4
+                  className="col s12 game-result"
+                >
+                  
+                </h4>
+              </div>
+              <div
+                className="col s5"
+              >
+                <h4
+                  className="col s12 computer-name"
+                >
+                  Computer
+                </h4>
+                <div
+                  className="choice-icons"
+                >
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="rock"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="paper"
+                    />
+                  </div>
+                  <div
+                    className="col s4"
+                  >
+                    <IconSVG
+                      name="scissors"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="game-button"
+            />,
+            <ScoreTable
+              scores={
+                Array [
+                  0,
+                  0,
+                ]
+              }
+            />,
+            <div
+              className="game-button"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col s5 icons-block"
+                >
+                  <h4
+                    className="col s12 user-name"
+                  >
+                    You
+                  </h4>
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                      onClick={[Function]}
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>
+                </div>,
+                <div
+                  className="col s2"
+                >
+                  <h5
+                    className="col s12 teal accent-2 round"
+                  >
+                    Round 
+                    1
+                  </h5>
+                  <h4
+                    className="col s12 game-result"
+                  >
+                    
+                  </h4>
+                </div>,
+                <div
+                  className="col s5"
+                >
+                  <h4
+                    className="col s12 computer-name"
+                  >
+                    Computer
+                  </h4>
+                  <div
+                    className="choice-icons"
+                  >
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="rock"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="paper"
+                      />
+                    </div>
+                    <div
+                      className="col s4"
+                    >
+                      <IconSVG
+                        name="scissors"
+                      />
+                    </div>
+                  </div>
+                </div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="col s12 user-name"
+                    >
+                      You
+                    </h4>,
+                    <div
+                      className="choice-icons"
+                    >
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                        onClick={[Function]}
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>
+                    </div>,
+                  ],
+                  "className": "col s5 icons-block",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "You",
+                      "className": "col s12 user-name",
+                    },
+                    "ref": null,
+                    "rendered": "You",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="rock"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="paper"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                          onClick={[Function]}
+                        >
+                          <IconSVG
+                            name="scissors"
+                          />
+                        </div>,
+                      ],
+                      "className": "choice-icons",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="rock"
+                          />,
+                          "className": "col s4",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "rock",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="paper"
+                          />,
+                          "className": "col s4",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "paper",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="scissors"
+                          />,
+                          "className": "col s4",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "scissors",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h5
+                      className="col s12 teal accent-2 round"
+                    >
+                      Round 
+                      1
+                    </h5>,
+                    <h4
+                      className="col s12 game-result"
+                    >
+                      
+                    </h4>,
+                  ],
+                  "className": "col s2",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Round ",
+                        1,
+                      ],
+                      "className": "col s12 teal accent-2 round",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Round ",
+                      1,
+                    ],
+                    "type": "h5",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "className": "col s12 game-result",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "h4",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="col s12 computer-name"
+                    >
+                      Computer
+                    </h4>,
+                    <div
+                      className="choice-icons"
+                    >
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="rock"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="paper"
+                        />
+                      </div>
+                      <div
+                        className="col s4"
+                      >
+                        <IconSVG
+                          name="scissors"
+                        />
+                      </div>
+                    </div>,
+                  ],
+                  "className": "col s5",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Computer",
+                      "className": "col s12 computer-name",
+                    },
+                    "ref": null,
+                    "rendered": "Computer",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="rock"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="paper"
+                          />
+                        </div>,
+                        <div
+                          className="col s4"
+                        >
+                          <IconSVG
+                            name="scissors"
+                          />
+                        </div>,
+                      ],
+                      "className": "choice-icons",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="rock"
+                          />,
+                          "className": "col s4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "rock",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="paper"
+                          />,
+                          "className": "col s4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "paper",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSVG
+                            name="scissors"
+                          />,
+                          "className": "col s4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "name": "scissors",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": false,
+              "className": "game-button",
+            },
+            "ref": null,
+            "rendered": false,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "scores": Array [
+                0,
+                0,
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": false,
+              "className": "game-button",
+            },
+            "ref": null,
+            "rendered": false,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "section",
+    },
+  ],
+}
+`;

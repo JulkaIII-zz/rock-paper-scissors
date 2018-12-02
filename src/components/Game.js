@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import { ICONS_ARRAY, RULES } from "../constants";
 import IconSVG from "./IconSVG";
 import ScoreTable from "./ScoreTable";
@@ -127,25 +126,25 @@ class Game extends Component {
         <div>
           <div className="row">
             <div className="col s5 icons-block">
-              <h4 className="col s12 userName">You</h4>
+              <h4 className="col s12 user-name">You</h4>
               <div className="choice-icons">{userChoiceItems}</div>
             </div>
             <div className="col s2">
-              <h5 className="col s12 teal accent-2">Round {round}</h5>
+              <h5 className="col s12 teal accent-2 round">Round {round}</h5>
               <h4 className="col s12 game-result">{result}</h4>
             </div>
             <div className="col s5">
-              <h4 className="col s12 userName">Computer</h4>
+              <h4 className="col s12 computer-name">Computer</h4>
               <div className="choice-icons">{computerChoiceItems}</div>
             </div>
           </div>
           <div className="game-button">
             {userClicked && (
               <a
-                className="waves-effect waves-light btn-small"
+                className="waves-effect waves-light btn-small next-round-btn"
                 onClick={this.nextRound}
               >
-                <i className="material-icons right">cloud</i>Next Round
+                <i className="material-icons right">navigate_next</i>Next Round
               </a>
             )}
           </div>
@@ -153,10 +152,10 @@ class Game extends Component {
           <div className="game-button">
             {(round > 1 || userClicked) && (
               <a
-                className="waves-effect waves-light btn-small"
+                className="waves-effect waves-light btn-small restart-btn"
                 onClick={this.restartGame}
               >
-                <i className="material-icons right">cloud</i>Restart game
+                <i className="material-icons right">replay</i>Restart game
               </a>
             )}
           </div>

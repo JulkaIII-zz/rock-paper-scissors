@@ -21,6 +21,9 @@ $teal: teal;
   main {
     width: 100%;
   }
+  .footer-text {
+    color: $dark-grey;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -49,7 +52,7 @@ $teal: teal;
 }
 
 .game-result {
-  margin-top: 100px;
+  margin-top: 60px;
   color: $teal;
 }
 
