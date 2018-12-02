@@ -12,6 +12,7 @@ const IconSVG = ({ name }) => {
     return svgSources[name] ? (
       <span
         className={`icon svg-icon-${name}`}
+        value={name}
         dangerouslySetInnerHTML={{ __html: svgSources[name] }}
       />
     ) : (

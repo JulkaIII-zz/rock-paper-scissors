@@ -78,3 +78,9 @@ export const ICONS = {
  </g>
  </svg>`
 };
+
+export const RULES = {
+  rock: "scissors",
+  paper: "rock",
+  scissors: "paper"
+};
