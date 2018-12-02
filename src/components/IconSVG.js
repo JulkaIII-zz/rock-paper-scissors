@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ICONS from "./../constants";
+import { ICONS } from "./../constants";
 
 const svgSources = {};
 svgSources.rock = ICONS.ROCK;

@@ -19,6 +19,9 @@ $teal: teal;
   .play-button {
     padding-bottom: 100px;
   }
+  main {
+    width: 100%;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -33,9 +36,11 @@ $teal: teal;
   .userName {
     margin-bottom: 100px;
   }
-  .choice-icons {
-    span:not(:last-of-type) {
-      margin-right: 30px;
+  .icons-block {
+    .choice-icons {
+      span:not(:last-of-type) {
+        margin-right: 30px;
+      }
     }
   }
 }

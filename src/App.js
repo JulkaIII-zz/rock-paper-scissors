@@ -11,7 +11,8 @@ class App extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(event) {
+  handleClick() {
+    console.log("APP event");
     this.setState({ renderComponent: !this.state.renderComponent });
   }
 

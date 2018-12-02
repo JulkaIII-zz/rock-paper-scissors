@@ -1,4 +1,6 @@
-const ICONS = {
+export const ICONS_ARRAY = ["rock", "paper", "scissors"];
+
+export const ICONS = {
   ROCK: `<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
   width="80.000000pt" height="100.000000pt" viewBox="0 0 91.000000 90.000000"
   preserveAspectRatio="xMidYMid meet">
@@ -76,5 +78,3 @@ const ICONS = {
  </g>
  </svg>`
 };
-
-export default ICONS;
