@@ -1,0 +1,64 @@
+$dark-grey: #212121;
+$teal: teal;
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .app-header {
+    font-size: calc(10px + 2vmin);
+    color: $teal;
+  }
+  .app-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 35vmin;
+  }
+  .play-button {
+    padding-bottom: 100px;
+  }
+  main {
+    width: 100%;
+  }
+  .footer-text {
+    color: $dark-grey;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.game-section {
+  .userName {
+    margin-bottom: 100px;
+  }
+  .icons-block {
+    .choice-icons {
+      span:not(:last-of-type) {
+        margin-right: 30px;
+      }
+    }
+  }
+  .game-button {
+    min-height: 35px;
+  }
+}
+
+.game-result {
+  margin-top: 60px;
+  color: $teal;
+}
+
+.score-table {
+  table {
+    float: none !important;
+    margin: 0 auto;
+  }
+}
