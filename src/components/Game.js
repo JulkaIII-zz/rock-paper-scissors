@@ -11,49 +11,36 @@ class Game extends Component {
       userChosenItem: "",
       computerChosenItem: "",
       userClicked: false,
-      result: ""
+      result: "",
+      round: 1
     };
     this.handleUserClick = this.handleUserClick.bind(this);
     this.handleComputerLogic = this.handleComputerLogic.bind(this);
     this.nextRound = this.nextRound.bind(this);
     this.calculateResult = this.calculateResult.bind(this);
+    this.playGame = this.playGame.bind(this);
+    this.restartGame = this.restartGame.bind(this);
   }
 
-  playGame() {}
-
-  handleUserClick(iconName) {
+  playGame(userChosenItem) {
     let { userClicked } = this.state;
     if (userClicked) {
       return;
     }
-    this.setState({ userChosenItem: iconName, userClicked: true }, () =>
-      console.log("state: ", this.state)
-    );
-
+    this.handleUserClick(userChosenItem);
     let computerChosenItem = this.handleComputerLogic();
-    this.calculateResult(iconName, computerChosenItem);
-    // setTimeout(() => {
-    //   this.setState({ userChosenItem: "" }); // TODO: fix a memory leak
-    // }, 2000);
+    this.calculateResult(userChosenItem, computerChosenItem);
+  }
+
+  handleUserClick(userChosenItem) {
+    this.setState({ userChosenItem: userChosenItem, userClicked: true });
   }
 
   handleComputerLogic() {
     const iconNames = ICONS_ARRAY;
     const randomItem = _.sample(iconNames);
-    this.setState({ computerChosenItem: randomItem }, () =>
-      console.log("state: ", this.state)
-    );
+    this.setState({ computerChosenItem: randomItem });
     return randomItem;
-    //this.setState({ userClicked: false });
-  }
-
-  nextRound() {
-    this.setState({
-      userChosenItem: "",
-      computerChosenItem: "",
-      userClicked: false,
-      result: ""
-    });
   }
 
   calculateResult(userChosenItem, computerChosenItem) {
@@ -68,12 +55,33 @@ class Game extends Component {
     return this.setState({ result: "You lost" });
   }
 
+  nextRound() {
+    this.setState({
+      userChosenItem: "",
+      computerChosenItem: "",
+      userClicked: false,
+      result: "",
+      round: this.state.round + 1
+    });
+  }
+
+  restartGame() {
+    this.setState({
+      userChosenItem: "",
+      computerChosenItem: "",
+      userClicked: false,
+      result: "",
+      round: 1
+    });
+  }
+
   render() {
     let {
       userChosenItem,
       computerChosenItem,
       userClicked,
-      result
+      result,
+      round
     } = this.state;
     const iconNames = ICONS_ARRAY;
     let userChoiceItems = _.map(iconNames, (iconName, index) => {
@@ -82,7 +90,7 @@ class Game extends Component {
           <div
             className="col s4"
             key={index}
-            onClick={() => this.handleUserClick(iconName)}
+            onClick={() => this.playGame(iconName)}
           >
             <IconSVG name={iconName} />
           </div>
@@ -113,6 +121,7 @@ class Game extends Component {
               <div className="choice-icons">{userChoiceItems}</div>
             </div>
             <div className="col s2">
+              <h5 className="col s12">Round {round}</h5>
               <h5 className="col s12">{result}</h5>
             </div>
             <div className="col s5">
@@ -126,6 +135,14 @@ class Game extends Component {
               onClick={this.nextRound}
             >
               <i className="material-icons right">cloud</i>Next Round
+            </a>
+          )}
+          {(round > 1 || userClicked) && (
+            <a
+              className="waves-effect waves-light btn-small"
+              onClick={this.restartGame}
+            >
+              <i className="material-icons right">cloud</i>Restart game
             </a>
           )}
         </div>
