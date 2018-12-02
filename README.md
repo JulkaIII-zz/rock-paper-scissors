@@ -13,4 +13,4 @@ Run `npm start` for preview.
 
 ## Testing
 
-Running `npm start` will run the unit tests.
+Running `npm test` will run the unit tests.
