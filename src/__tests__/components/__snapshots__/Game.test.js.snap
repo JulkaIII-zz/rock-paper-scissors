@@ -22,43 +22,16 @@ ShallowWrapper {
           <div
             className="row"
           >
-            <div
-              className="col s5 icons-block"
-            >
-              <h4
-                className="col s12 user-name"
-              >
-                You
-              </h4>
-              <div
-                className="choice-icons"
-              >
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="rock"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="paper"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="scissors"
-                  />
-                </div>
-              </div>
-            </div>
+            <User
+              computerChosenItem=""
+              computerScore={0}
+              playGame={[Function]}
+              result=""
+              round={1}
+              userChosenItem=""
+              userClicked={false}
+              userScore={0}
+            />
             <div
               className="col s2"
             >
@@ -74,40 +47,15 @@ ShallowWrapper {
                 
               </h4>
             </div>
-            <div
-              className="col s5"
-            >
-              <h4
-                className="col s12 computer-name"
-              >
-                Computer
-              </h4>
-              <div
-                className="choice-icons"
-              >
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="rock"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="paper"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="scissors"
-                  />
-                </div>
-              </div>
-            </div>
+            <Computer
+              computerChosenItem=""
+              computerScore={0}
+              result=""
+              round={1}
+              userChosenItem=""
+              userClicked={false}
+              userScore={0}
+            />
           </div>
           <div
             className="game-button"
@@ -136,43 +84,16 @@ ShallowWrapper {
             <div
               className="row"
             >
-              <div
-                className="col s5 icons-block"
-              >
-                <h4
-                  className="col s12 user-name"
-                >
-                  You
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>
+              <User
+                computerChosenItem=""
+                computerScore={0}
+                playGame={[Function]}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />
               <div
                 className="col s2"
               >
@@ -188,40 +109,15 @@ ShallowWrapper {
                   
                 </h4>
               </div>
-              <div
-                className="col s5"
-              >
-                <h4
-                  className="col s12 computer-name"
-                >
-                  Computer
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>
+              <Computer
+                computerChosenItem=""
+                computerScore={0}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />
             </div>,
             <div
               className="game-button"
@@ -247,43 +143,16 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <div
-                  className="col s5 icons-block"
-                >
-                  <h4
-                    className="col s12 user-name"
-                  >
-                    You
-                  </h4>
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>
-                </div>,
+                <User
+                  computerChosenItem=""
+                  computerScore={0}
+                  playGame={[Function]}
+                  result=""
+                  round={1}
+                  userChosenItem=""
+                  userClicked={false}
+                  userScore={0}
+                />,
                 <div
                   className="col s2"
                 >
@@ -299,40 +168,15 @@ ShallowWrapper {
                     
                   </h4>
                 </div>,
-                <div
-                  className="col s5"
-                >
-                  <h4
-                    className="col s12 computer-name"
-                  >
-                    Computer
-                  </h4>
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>
-                </div>,
+                <Computer
+                  computerChosenItem=""
+                  computerScore={0}
+                  result=""
+                  round={1}
+                  userChosenItem=""
+                  userClicked={false}
+                  userScore={0}
+                />,
               ],
               "className": "row",
             },
@@ -341,174 +185,20 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": Array [
-                    <h4
-                      className="col s12 user-name"
-                    >
-                      You
-                    </h4>,
-                    <div
-                      className="choice-icons"
-                    >
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>
-                    </div>,
-                  ],
-                  "className": "col s5 icons-block",
+                  "computerChosenItem": "",
+                  "computerScore": 0,
+                  "playGame": [Function],
+                  "result": "",
+                  "round": 1,
+                  "userChosenItem": "",
+                  "userClicked": false,
+                  "userScore": 0,
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "You",
-                      "className": "col s12 user-name",
-                    },
-                    "ref": null,
-                    "rendered": "You",
-                    "type": "h4",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="rock"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="paper"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="scissors"
-                          />
-                        </div>,
-                      ],
-                      "className": "choice-icons",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "0",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="rock"
-                          />,
-                          "className": "col s4",
-                          "onClick": [Function],
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "rock",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "1",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="paper"
-                          />,
-                          "className": "col s4",
-                          "onClick": [Function],
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "paper",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "2",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="scissors"
-                          />,
-                          "className": "col s4",
-                          "onClick": [Function],
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "scissors",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                    ],
-                    "type": "div",
-                  },
-                ],
-                "type": "div",
+                "rendered": null,
+                "type": [Function],
               },
               Object {
                 "instance": null,
@@ -568,165 +258,19 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": Array [
-                    <h4
-                      className="col s12 computer-name"
-                    >
-                      Computer
-                    </h4>,
-                    <div
-                      className="choice-icons"
-                    >
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>
-                    </div>,
-                  ],
-                  "className": "col s5",
+                  "computerChosenItem": "",
+                  "computerScore": 0,
+                  "result": "",
+                  "round": 1,
+                  "userChosenItem": "",
+                  "userClicked": false,
+                  "userScore": 0,
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Computer",
-                      "className": "col s12 computer-name",
-                    },
-                    "ref": null,
-                    "rendered": "Computer",
-                    "type": "h4",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="rock"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="paper"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="scissors"
-                          />
-                        </div>,
-                      ],
-                      "className": "choice-icons",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "0",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="rock"
-                          />,
-                          "className": "col s4",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "rock",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "1",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="paper"
-                          />,
-                          "className": "col s4",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "paper",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "2",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="scissors"
-                          />,
-                          "className": "col s4",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "scissors",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                    ],
-                    "type": "div",
-                  },
-                ],
-                "type": "div",
+                "rendered": null,
+                "type": [Function],
               },
             ],
             "type": "div",
@@ -784,43 +328,16 @@ ShallowWrapper {
             <div
               className="row"
             >
-              <div
-                className="col s5 icons-block"
-              >
-                <h4
-                  className="col s12 user-name"
-                >
-                  You
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>
+              <User
+                computerChosenItem=""
+                computerScore={0}
+                playGame={[Function]}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />
               <div
                 className="col s2"
               >
@@ -836,40 +353,15 @@ ShallowWrapper {
                   
                 </h4>
               </div>
-              <div
-                className="col s5"
-              >
-                <h4
-                  className="col s12 computer-name"
-                >
-                  Computer
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>
+              <Computer
+                computerChosenItem=""
+                computerScore={0}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />
             </div>
             <div
               className="game-button"
@@ -898,43 +390,16 @@ ShallowWrapper {
               <div
                 className="row"
               >
-                <div
-                  className="col s5 icons-block"
-                >
-                  <h4
-                    className="col s12 user-name"
-                  >
-                    You
-                  </h4>
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <User
+                  computerChosenItem=""
+                  computerScore={0}
+                  playGame={[Function]}
+                  result=""
+                  round={1}
+                  userChosenItem=""
+                  userClicked={false}
+                  userScore={0}
+                />
                 <div
                   className="col s2"
                 >
@@ -950,40 +415,15 @@ ShallowWrapper {
                     
                   </h4>
                 </div>
-                <div
-                  className="col s5"
-                >
-                  <h4
-                    className="col s12 computer-name"
-                  >
-                    Computer
-                  </h4>
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <Computer
+                  computerChosenItem=""
+                  computerScore={0}
+                  result=""
+                  round={1}
+                  userChosenItem=""
+                  userClicked={false}
+                  userScore={0}
+                />
               </div>,
               <div
                 className="game-button"
@@ -1009,43 +449,16 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <div
-                    className="col s5 icons-block"
-                  >
-                    <h4
-                      className="col s12 user-name"
-                    >
-                      You
-                    </h4>
-                    <div
-                      className="choice-icons"
-                    >
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>
-                    </div>
-                  </div>,
+                  <User
+                    computerChosenItem=""
+                    computerScore={0}
+                    playGame={[Function]}
+                    result=""
+                    round={1}
+                    userChosenItem=""
+                    userClicked={false}
+                    userScore={0}
+                  />,
                   <div
                     className="col s2"
                   >
@@ -1061,40 +474,15 @@ ShallowWrapper {
                       
                     </h4>
                   </div>,
-                  <div
-                    className="col s5"
-                  >
-                    <h4
-                      className="col s12 computer-name"
-                    >
-                      Computer
-                    </h4>
-                    <div
-                      className="choice-icons"
-                    >
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>
-                    </div>
-                  </div>,
+                  <Computer
+                    computerChosenItem=""
+                    computerScore={0}
+                    result=""
+                    round={1}
+                    userChosenItem=""
+                    userClicked={false}
+                    userScore={0}
+                  />,
                 ],
                 "className": "row",
               },
@@ -1103,174 +491,20 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
+                  "nodeType": "function",
                   "props": Object {
-                    "children": Array [
-                      <h4
-                        className="col s12 user-name"
-                      >
-                        You
-                      </h4>,
-                      <div
-                        className="choice-icons"
-                      >
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="rock"
-                          />
-                        </div>
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="paper"
-                          />
-                        </div>
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="scissors"
-                          />
-                        </div>
-                      </div>,
-                    ],
-                    "className": "col s5 icons-block",
+                    "computerChosenItem": "",
+                    "computerScore": 0,
+                    "playGame": [Function],
+                    "result": "",
+                    "round": 1,
+                    "userChosenItem": "",
+                    "userClicked": false,
+                    "userScore": 0,
                   },
                   "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "You",
-                        "className": "col s12 user-name",
-                      },
-                      "ref": null,
-                      "rendered": "You",
-                      "type": "h4",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <div
-                            className="col s4"
-                            onClick={[Function]}
-                          >
-                            <IconSVG
-                              name="rock"
-                            />
-                          </div>,
-                          <div
-                            className="col s4"
-                            onClick={[Function]}
-                          >
-                            <IconSVG
-                              name="paper"
-                            />
-                          </div>,
-                          <div
-                            className="col s4"
-                            onClick={[Function]}
-                          >
-                            <IconSVG
-                              name="scissors"
-                            />
-                          </div>,
-                        ],
-                        "className": "choice-icons",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": "0",
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <IconSVG
-                              name="rock"
-                            />,
-                            "className": "col s4",
-                            "onClick": [Function],
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "name": "rock",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": [Function],
-                          },
-                          "type": "div",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": "1",
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <IconSVG
-                              name="paper"
-                            />,
-                            "className": "col s4",
-                            "onClick": [Function],
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "name": "paper",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": [Function],
-                          },
-                          "type": "div",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": "2",
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <IconSVG
-                              name="scissors"
-                            />,
-                            "className": "col s4",
-                            "onClick": [Function],
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "name": "scissors",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": [Function],
-                          },
-                          "type": "div",
-                        },
-                      ],
-                      "type": "div",
-                    },
-                  ],
-                  "type": "div",
+                  "rendered": null,
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
@@ -1330,165 +564,19 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
+                  "nodeType": "function",
                   "props": Object {
-                    "children": Array [
-                      <h4
-                        className="col s12 computer-name"
-                      >
-                        Computer
-                      </h4>,
-                      <div
-                        className="choice-icons"
-                      >
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="rock"
-                          />
-                        </div>
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="paper"
-                          />
-                        </div>
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="scissors"
-                          />
-                        </div>
-                      </div>,
-                    ],
-                    "className": "col s5",
+                    "computerChosenItem": "",
+                    "computerScore": 0,
+                    "result": "",
+                    "round": 1,
+                    "userChosenItem": "",
+                    "userClicked": false,
+                    "userScore": 0,
                   },
                   "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Computer",
-                        "className": "col s12 computer-name",
-                      },
-                      "ref": null,
-                      "rendered": "Computer",
-                      "type": "h4",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <div
-                            className="col s4"
-                          >
-                            <IconSVG
-                              name="rock"
-                            />
-                          </div>,
-                          <div
-                            className="col s4"
-                          >
-                            <IconSVG
-                              name="paper"
-                            />
-                          </div>,
-                          <div
-                            className="col s4"
-                          >
-                            <IconSVG
-                              name="scissors"
-                            />
-                          </div>,
-                        ],
-                        "className": "choice-icons",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": "0",
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <IconSVG
-                              name="rock"
-                            />,
-                            "className": "col s4",
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "name": "rock",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": [Function],
-                          },
-                          "type": "div",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": "1",
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <IconSVG
-                              name="paper"
-                            />,
-                            "className": "col s4",
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "name": "paper",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": [Function],
-                          },
-                          "type": "div",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": "2",
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <IconSVG
-                              name="scissors"
-                            />,
-                            "className": "col s4",
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "name": "scissors",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": [Function],
-                          },
-                          "type": "div",
-                        },
-                      ],
-                      "type": "div",
-                    },
-                  ],
-                  "type": "div",
+                  "rendered": null,
+                  "type": [Function],
                 },
               ],
               "type": "div",
@@ -1573,43 +661,16 @@ ShallowWrapper {
         <div
           className="row"
         >
-          <div
-            className="col s5 icons-block"
-          >
-            <h4
-              className="col s12 user-name"
-            >
-              You
-            </h4>
-            <div
-              className="choice-icons"
-            >
-              <div
-                className="col s4"
-                onClick={[Function]}
-              >
-                <IconSVG
-                  name="rock"
-                />
-              </div>
-              <div
-                className="col s4"
-                onClick={[Function]}
-              >
-                <IconSVG
-                  name="paper"
-                />
-              </div>
-              <div
-                className="col s4"
-                onClick={[Function]}
-              >
-                <IconSVG
-                  name="scissors"
-                />
-              </div>
-            </div>
-          </div>
+          <User
+            computerChosenItem=""
+            computerScore={0}
+            playGame={[Function]}
+            result=""
+            round={1}
+            userChosenItem=""
+            userClicked={false}
+            userScore={0}
+          />
           <div
             className="col s2"
           >
@@ -1625,40 +686,15 @@ ShallowWrapper {
               
             </h4>
           </div>
-          <div
-            className="col s5"
-          >
-            <h4
-              className="col s12 computer-name"
-            >
-              Computer
-            </h4>
-            <div
-              className="choice-icons"
-            >
-              <div
-                className="col s4"
-              >
-                <IconSVG
-                  name="rock"
-                />
-              </div>
-              <div
-                className="col s4"
-              >
-                <IconSVG
-                  name="paper"
-                />
-              </div>
-              <div
-                className="col s4"
-              >
-                <IconSVG
-                  name="scissors"
-                />
-              </div>
-            </div>
-          </div>
+          <Computer
+            computerChosenItem=""
+            computerScore={0}
+            result=""
+            round={1}
+            userChosenItem=""
+            userClicked={false}
+            userScore={0}
+          />
         </div>
         <div
           className="game-button"
@@ -1687,43 +723,16 @@ ShallowWrapper {
           <div
             className="row"
           >
-            <div
-              className="col s5 icons-block"
-            >
-              <h4
-                className="col s12 user-name"
-              >
-                You
-              </h4>
-              <div
-                className="choice-icons"
-              >
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="rock"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="paper"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="scissors"
-                  />
-                </div>
-              </div>
-            </div>
+            <User
+              computerChosenItem=""
+              computerScore={0}
+              playGame={[Function]}
+              result=""
+              round={1}
+              userChosenItem=""
+              userClicked={false}
+              userScore={0}
+            />
             <div
               className="col s2"
             >
@@ -1739,40 +748,15 @@ ShallowWrapper {
                 
               </h4>
             </div>
-            <div
-              className="col s5"
-            >
-              <h4
-                className="col s12 computer-name"
-              >
-                Computer
-              </h4>
-              <div
-                className="choice-icons"
-              >
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="rock"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="paper"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="scissors"
-                  />
-                </div>
-              </div>
-            </div>
+            <Computer
+              computerChosenItem=""
+              computerScore={0}
+              result=""
+              round={1}
+              userChosenItem=""
+              userClicked={false}
+              userScore={0}
+            />
           </div>,
           <div
             className="game-button"
@@ -1798,43 +782,16 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <div
-                className="col s5 icons-block"
-              >
-                <h4
-                  className="col s12 user-name"
-                >
-                  You
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>,
+              <User
+                computerChosenItem=""
+                computerScore={0}
+                playGame={[Function]}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />,
               <div
                 className="col s2"
               >
@@ -1850,40 +807,15 @@ ShallowWrapper {
                   
                 </h4>
               </div>,
-              <div
-                className="col s5"
-              >
-                <h4
-                  className="col s12 computer-name"
-                >
-                  Computer
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>,
+              <Computer
+                computerChosenItem=""
+                computerScore={0}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />,
             ],
             "className": "row",
           },
@@ -1892,174 +824,20 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "children": Array [
-                  <h4
-                    className="col s12 user-name"
-                  >
-                    You
-                  </h4>,
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>,
-                ],
-                "className": "col s5 icons-block",
+                "computerChosenItem": "",
+                "computerScore": 0,
+                "playGame": [Function],
+                "result": "",
+                "round": 1,
+                "userChosenItem": "",
+                "userClicked": false,
+                "userScore": 0,
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "You",
-                    "className": "col s12 user-name",
-                  },
-                  "ref": null,
-                  "rendered": "You",
-                  "type": "h4",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>,
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>,
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>,
-                    ],
-                    "className": "choice-icons",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "0",
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <IconSVG
-                          name="rock"
-                        />,
-                        "className": "col s4",
-                        "onClick": [Function],
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {
-                          "name": "rock",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": [Function],
-                      },
-                      "type": "div",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": "1",
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <IconSVG
-                          name="paper"
-                        />,
-                        "className": "col s4",
-                        "onClick": [Function],
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {
-                          "name": "paper",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": [Function],
-                      },
-                      "type": "div",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": "2",
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <IconSVG
-                          name="scissors"
-                        />,
-                        "className": "col s4",
-                        "onClick": [Function],
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {
-                          "name": "scissors",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": [Function],
-                      },
-                      "type": "div",
-                    },
-                  ],
-                  "type": "div",
-                },
-              ],
-              "type": "div",
+              "rendered": null,
+              "type": [Function],
             },
             Object {
               "instance": null,
@@ -2119,165 +897,19 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "children": Array [
-                  <h4
-                    className="col s12 computer-name"
-                  >
-                    Computer
-                  </h4>,
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>,
-                ],
-                "className": "col s5",
+                "computerChosenItem": "",
+                "computerScore": 0,
+                "result": "",
+                "round": 1,
+                "userChosenItem": "",
+                "userClicked": false,
+                "userScore": 0,
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Computer",
-                    "className": "col s12 computer-name",
-                  },
-                  "ref": null,
-                  "rendered": "Computer",
-                  "type": "h4",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>,
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>,
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>,
-                    ],
-                    "className": "choice-icons",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "0",
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <IconSVG
-                          name="rock"
-                        />,
-                        "className": "col s4",
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {
-                          "name": "rock",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": [Function],
-                      },
-                      "type": "div",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": "1",
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <IconSVG
-                          name="paper"
-                        />,
-                        "className": "col s4",
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {
-                          "name": "paper",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": [Function],
-                      },
-                      "type": "div",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": "2",
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <IconSVG
-                          name="scissors"
-                        />,
-                        "className": "col s4",
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {
-                          "name": "scissors",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": [Function],
-                      },
-                      "type": "div",
-                    },
-                  ],
-                  "type": "div",
-                },
-              ],
-              "type": "div",
+              "rendered": null,
+              "type": [Function],
             },
           ],
           "type": "div",
@@ -2335,43 +967,16 @@ ShallowWrapper {
           <div
             className="row"
           >
-            <div
-              className="col s5 icons-block"
-            >
-              <h4
-                className="col s12 user-name"
-              >
-                You
-              </h4>
-              <div
-                className="choice-icons"
-              >
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="rock"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="paper"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="scissors"
-                  />
-                </div>
-              </div>
-            </div>
+            <User
+              computerChosenItem=""
+              computerScore={0}
+              playGame={[Function]}
+              result=""
+              round={1}
+              userChosenItem=""
+              userClicked={false}
+              userScore={0}
+            />
             <div
               className="col s2"
             >
@@ -2387,40 +992,15 @@ ShallowWrapper {
                 
               </h4>
             </div>
-            <div
-              className="col s5"
-            >
-              <h4
-                className="col s12 computer-name"
-              >
-                Computer
-              </h4>
-              <div
-                className="choice-icons"
-              >
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="rock"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="paper"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="scissors"
-                  />
-                </div>
-              </div>
-            </div>
+            <Computer
+              computerChosenItem=""
+              computerScore={0}
+              result=""
+              round={1}
+              userChosenItem=""
+              userClicked={false}
+              userScore={0}
+            />
           </div>
           <div
             className="game-button"
@@ -2449,43 +1029,16 @@ ShallowWrapper {
             <div
               className="row"
             >
-              <div
-                className="col s5 icons-block"
-              >
-                <h4
-                  className="col s12 user-name"
-                >
-                  You
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>
+              <User
+                computerChosenItem=""
+                computerScore={0}
+                playGame={[Function]}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />
               <div
                 className="col s2"
               >
@@ -2501,40 +1054,15 @@ ShallowWrapper {
                   
                 </h4>
               </div>
-              <div
-                className="col s5"
-              >
-                <h4
-                  className="col s12 computer-name"
-                >
-                  Computer
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>
+              <Computer
+                computerChosenItem=""
+                computerScore={0}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />
             </div>,
             <div
               className="game-button"
@@ -2560,43 +1088,16 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <div
-                  className="col s5 icons-block"
-                >
-                  <h4
-                    className="col s12 user-name"
-                  >
-                    You
-                  </h4>
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>
-                </div>,
+                <User
+                  computerChosenItem=""
+                  computerScore={0}
+                  playGame={[Function]}
+                  result=""
+                  round={1}
+                  userChosenItem=""
+                  userClicked={false}
+                  userScore={0}
+                />,
                 <div
                   className="col s2"
                 >
@@ -2612,40 +1113,15 @@ ShallowWrapper {
                     
                   </h4>
                 </div>,
-                <div
-                  className="col s5"
-                >
-                  <h4
-                    className="col s12 computer-name"
-                  >
-                    Computer
-                  </h4>
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>
-                </div>,
+                <Computer
+                  computerChosenItem=""
+                  computerScore={0}
+                  result=""
+                  round={1}
+                  userChosenItem=""
+                  userClicked={false}
+                  userScore={0}
+                />,
               ],
               "className": "row",
             },
@@ -2654,174 +1130,20 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": Array [
-                    <h4
-                      className="col s12 user-name"
-                    >
-                      You
-                    </h4>,
-                    <div
-                      className="choice-icons"
-                    >
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>
-                    </div>,
-                  ],
-                  "className": "col s5 icons-block",
+                  "computerChosenItem": "",
+                  "computerScore": 0,
+                  "playGame": [Function],
+                  "result": "",
+                  "round": 1,
+                  "userChosenItem": "",
+                  "userClicked": false,
+                  "userScore": 0,
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "You",
-                      "className": "col s12 user-name",
-                    },
-                    "ref": null,
-                    "rendered": "You",
-                    "type": "h4",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="rock"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="paper"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="scissors"
-                          />
-                        </div>,
-                      ],
-                      "className": "choice-icons",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "0",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="rock"
-                          />,
-                          "className": "col s4",
-                          "onClick": [Function],
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "rock",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "1",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="paper"
-                          />,
-                          "className": "col s4",
-                          "onClick": [Function],
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "paper",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "2",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="scissors"
-                          />,
-                          "className": "col s4",
-                          "onClick": [Function],
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "scissors",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                    ],
-                    "type": "div",
-                  },
-                ],
-                "type": "div",
+                "rendered": null,
+                "type": [Function],
               },
               Object {
                 "instance": null,
@@ -2881,165 +1203,19 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": Array [
-                    <h4
-                      className="col s12 computer-name"
-                    >
-                      Computer
-                    </h4>,
-                    <div
-                      className="choice-icons"
-                    >
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>
-                    </div>,
-                  ],
-                  "className": "col s5",
+                  "computerChosenItem": "",
+                  "computerScore": 0,
+                  "result": "",
+                  "round": 1,
+                  "userChosenItem": "",
+                  "userClicked": false,
+                  "userScore": 0,
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Computer",
-                      "className": "col s12 computer-name",
-                    },
-                    "ref": null,
-                    "rendered": "Computer",
-                    "type": "h4",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="rock"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="paper"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="scissors"
-                          />
-                        </div>,
-                      ],
-                      "className": "choice-icons",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "0",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="rock"
-                          />,
-                          "className": "col s4",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "rock",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "1",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="paper"
-                          />,
-                          "className": "col s4",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "paper",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "2",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="scissors"
-                          />,
-                          "className": "col s4",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "scissors",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                    ],
-                    "type": "div",
-                  },
-                ],
-                "type": "div",
+                "rendered": null,
+                "type": [Function],
               },
             ],
             "type": "div",
@@ -3115,43 +1291,16 @@ ShallowWrapper {
           <div
             className="row"
           >
-            <div
-              className="col s5 icons-block"
-            >
-              <h4
-                className="col s12 user-name"
-              >
-                You
-              </h4>
-              <div
-                className="choice-icons"
-              >
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="rock"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="paper"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                  onClick={[Function]}
-                >
-                  <IconSVG
-                    name="scissors"
-                  />
-                </div>
-              </div>
-            </div>
+            <User
+              computerChosenItem=""
+              computerScore={0}
+              playGame={[Function]}
+              result=""
+              round={1}
+              userChosenItem=""
+              userClicked={false}
+              userScore={0}
+            />
             <div
               className="col s2"
             >
@@ -3167,40 +1316,15 @@ ShallowWrapper {
                 
               </h4>
             </div>
-            <div
-              className="col s5"
-            >
-              <h4
-                className="col s12 computer-name"
-              >
-                Computer
-              </h4>
-              <div
-                className="choice-icons"
-              >
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="rock"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="paper"
-                  />
-                </div>
-                <div
-                  className="col s4"
-                >
-                  <IconSVG
-                    name="scissors"
-                  />
-                </div>
-              </div>
-            </div>
+            <Computer
+              computerChosenItem=""
+              computerScore={0}
+              result=""
+              round={1}
+              userChosenItem=""
+              userClicked={false}
+              userScore={0}
+            />
           </div>
           <div
             className="game-button"
@@ -3229,43 +1353,16 @@ ShallowWrapper {
             <div
               className="row"
             >
-              <div
-                className="col s5 icons-block"
-              >
-                <h4
-                  className="col s12 user-name"
-                >
-                  You
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                    onClick={[Function]}
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>
+              <User
+                computerChosenItem=""
+                computerScore={0}
+                playGame={[Function]}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />
               <div
                 className="col s2"
               >
@@ -3281,40 +1378,15 @@ ShallowWrapper {
                   
                 </h4>
               </div>
-              <div
-                className="col s5"
-              >
-                <h4
-                  className="col s12 computer-name"
-                >
-                  Computer
-                </h4>
-                <div
-                  className="choice-icons"
-                >
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="rock"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="paper"
-                    />
-                  </div>
-                  <div
-                    className="col s4"
-                  >
-                    <IconSVG
-                      name="scissors"
-                    />
-                  </div>
-                </div>
-              </div>
+              <Computer
+                computerChosenItem=""
+                computerScore={0}
+                result=""
+                round={1}
+                userChosenItem=""
+                userClicked={false}
+                userScore={0}
+              />
             </div>,
             <div
               className="game-button"
@@ -3340,43 +1412,16 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <div
-                  className="col s5 icons-block"
-                >
-                  <h4
-                    className="col s12 user-name"
-                  >
-                    You
-                  </h4>
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                      onClick={[Function]}
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>
-                </div>,
+                <User
+                  computerChosenItem=""
+                  computerScore={0}
+                  playGame={[Function]}
+                  result=""
+                  round={1}
+                  userChosenItem=""
+                  userClicked={false}
+                  userScore={0}
+                />,
                 <div
                   className="col s2"
                 >
@@ -3392,40 +1437,15 @@ ShallowWrapper {
                     
                   </h4>
                 </div>,
-                <div
-                  className="col s5"
-                >
-                  <h4
-                    className="col s12 computer-name"
-                  >
-                    Computer
-                  </h4>
-                  <div
-                    className="choice-icons"
-                  >
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="rock"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="paper"
-                      />
-                    </div>
-                    <div
-                      className="col s4"
-                    >
-                      <IconSVG
-                        name="scissors"
-                      />
-                    </div>
-                  </div>
-                </div>,
+                <Computer
+                  computerChosenItem=""
+                  computerScore={0}
+                  result=""
+                  round={1}
+                  userChosenItem=""
+                  userClicked={false}
+                  userScore={0}
+                />,
               ],
               "className": "row",
             },
@@ -3434,174 +1454,20 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": Array [
-                    <h4
-                      className="col s12 user-name"
-                    >
-                      You
-                    </h4>,
-                    <div
-                      className="choice-icons"
-                    >
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                        onClick={[Function]}
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>
-                    </div>,
-                  ],
-                  "className": "col s5 icons-block",
+                  "computerChosenItem": "",
+                  "computerScore": 0,
+                  "playGame": [Function],
+                  "result": "",
+                  "round": 1,
+                  "userChosenItem": "",
+                  "userClicked": false,
+                  "userScore": 0,
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "You",
-                      "className": "col s12 user-name",
-                    },
-                    "ref": null,
-                    "rendered": "You",
-                    "type": "h4",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="rock"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="paper"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                          onClick={[Function]}
-                        >
-                          <IconSVG
-                            name="scissors"
-                          />
-                        </div>,
-                      ],
-                      "className": "choice-icons",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "0",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="rock"
-                          />,
-                          "className": "col s4",
-                          "onClick": [Function],
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "rock",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "1",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="paper"
-                          />,
-                          "className": "col s4",
-                          "onClick": [Function],
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "paper",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "2",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="scissors"
-                          />,
-                          "className": "col s4",
-                          "onClick": [Function],
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "scissors",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                    ],
-                    "type": "div",
-                  },
-                ],
-                "type": "div",
+                "rendered": null,
+                "type": [Function],
               },
               Object {
                 "instance": null,
@@ -3661,165 +1527,19 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": Array [
-                    <h4
-                      className="col s12 computer-name"
-                    >
-                      Computer
-                    </h4>,
-                    <div
-                      className="choice-icons"
-                    >
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="rock"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="paper"
-                        />
-                      </div>
-                      <div
-                        className="col s4"
-                      >
-                        <IconSVG
-                          name="scissors"
-                        />
-                      </div>
-                    </div>,
-                  ],
-                  "className": "col s5",
+                  "computerChosenItem": "",
+                  "computerScore": 0,
+                  "result": "",
+                  "round": 1,
+                  "userChosenItem": "",
+                  "userClicked": false,
+                  "userScore": 0,
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Computer",
-                      "className": "col s12 computer-name",
-                    },
-                    "ref": null,
-                    "rendered": "Computer",
-                    "type": "h4",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="rock"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="paper"
-                          />
-                        </div>,
-                        <div
-                          className="col s4"
-                        >
-                          <IconSVG
-                            name="scissors"
-                          />
-                        </div>,
-                      ],
-                      "className": "choice-icons",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "0",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="rock"
-                          />,
-                          "className": "col s4",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "rock",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "1",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="paper"
-                          />,
-                          "className": "col s4",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "paper",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": "2",
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <IconSVG
-                            name="scissors"
-                          />,
-                          "className": "col s4",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "name": "scissors",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                    ],
-                    "type": "div",
-                  },
-                ],
-                "type": "div",
+                "rendered": null,
+                "type": [Function],
               },
             ],
             "type": "div",

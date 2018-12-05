@@ -3,6 +3,8 @@ import { ICONS_ARRAY, RULES } from "../constants";
 import IconSVG from "./IconSVG";
 import ScoreTable from "./ScoreTable";
 import _ from "lodash";
+import User from "./User";
+import Computer from "./Computer";
 
 class Game extends Component {
   constructor() {
@@ -82,61 +84,19 @@ class Game extends Component {
   }
 
   render() {
-    let {
-      userChosenItem,
-      computerChosenItem,
-      userClicked,
-      result,
-      round,
-      userScore,
-      computerScore
-    } = this.state;
-    const iconNames = ICONS_ARRAY;
+    let { userClicked, result, round, userScore, computerScore } = this.state;
     const scores = [userScore, computerScore];
-    let userChoiceItems = _.map(iconNames, (iconName, index) => {
-      if (userChosenItem === "" || userChosenItem === iconName) {
-        return (
-          <div
-            className="col s12 m4"
-            key={index}
-            onClick={() => this.playGame(iconName)}
-          >
-            <IconSVG name={iconName} />
-          </div>
-        );
-      } else {
-        return <div className="col s12 m4" key={index} />;
-      }
-    });
-
-    let computerChoiceItems = _.map(iconNames, (iconName, index) => {
-      if (computerChosenItem === "" || computerChosenItem === iconName) {
-        return (
-          <div className="col s12 m4" key={index}>
-            <IconSVG name={iconName} />
-          </div>
-        );
-      } else {
-        return <div className="col s12 m4" key={index} />;
-      }
-    });
 
     return (
       <section className="game-section">
         <div>
           <div className="row">
-            <div className="col s5 icons-block">
-              <h4 className="col s12 user-name">You</h4>
-              <div className="choice-icons">{userChoiceItems}</div>
-            </div>
+            <User {...this.state} playGame={this.playGame} />
             <div className="col s2">
               <h5 className="col s12 teal accent-2 round">Round {round}</h5>
               <h4 className="col s12 game-result">{result}</h4>
             </div>
-            <div className="col s5">
-              <h4 className="col s12 computer-name">Computer</h4>
-              <div className="choice-icons">{computerChoiceItems}</div>
-            </div>
+            <Computer {...this.state} />
           </div>
           <div className="game-button">
             {userClicked && (

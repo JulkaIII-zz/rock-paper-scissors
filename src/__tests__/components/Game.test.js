@@ -3,15 +3,18 @@ import { shallow, configure } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 
 import Game from "../../components/Game";
+import User from "../../components/User";
 import ScoreTable from "../../components/ScoreTable";
 
 configure({ adapter: new Adapter() });
 
 describe("Game component", function() {
   let wrapper;
+  let userWrapper;
 
   beforeEach(() => {
     wrapper = shallow(<Game />);
+    userWrapper = shallow(<User />);
   });
 
   it('should be selectable by class ".game-section"', () => {
@@ -30,18 +33,18 @@ describe("Game component", function() {
   });
 
   it('should change state and show "Next round" button when clicking on icon', () => {
-    wrapper
+    userWrapper
       .find(".choice-icons")
       .children()
       .first()
       .simulate("click");
-
+    wrapper.update();
     const button = wrapper.find(".next-round-btn").text();
     expect(button).toContain("Next Round");
   });
 
   it("should click Next Round button and change Round", () => {
-    wrapper
+    userWrapper
       .find(".choice-icons")
       .children()
       .first()
