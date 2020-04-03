@@ -1,8 +1,8 @@
 {
-  "homepage": "http://julkaiii.github.io/rock-paper-scissors",
-  "name": "my-app",
+  "name": "rock-paper-scissors",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://julkaiii.github.io/rock-paper-scissors",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^4.10.0",
