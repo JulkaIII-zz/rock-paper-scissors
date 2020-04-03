@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/rock-paper-scissors/static/media/logo.f7eec7ae.svg"
   },
   {
-    "revision": "5385818b1d0065dccaa4f5c26a54cd32",
+    "revision": "82c9b4181a795fcd8d6c52ae97b71172",
     "url": "/rock-paper-scissors/index.html"
   }
 ];
